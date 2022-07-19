@@ -12,6 +12,7 @@ body {
 .ist-section {
     display: flex;
     justify-content: center;
+    margin-bottom: 130px;
 }
 
 .container {
@@ -63,4 +64,91 @@ body {
 .banner-image img {
     width: 581px;
     height: 644px;
+}
+
+/* 2nd section  */
+/* left side css */
+.left-side {
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+}
+.all-button {
+    width: 252px;
+    height: 252px;
+    padding: 30px;
+   
+}
+.all-button a {
+    display: block;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 17px 40px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #161616;
+    text-align: center;
+}
+#red-button {
+   background-color: #DD0000;
+   color: #FFFFFF;
+  
+}
+/* Right Side Css */
+.player-card {
+    width: 312px;
+     height: 362px;
+     border-radius: 5px;
+     
+}
+.player-card img {
+    width: 312px;
+    height: 175px;
+    margin-bottom: 20px;
+}
+.button {
+    width: 100px;
+    height: 32px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    padding: 4px 12px;
+    text-align: center;
+}
+.button a {
+    text-decoration: none;
+    font-size: 19px;
+    padding-top: 5px;
+    color: #161616;
+    margin-bottom: 15px;
+    
+}
+.pcard-text {
+    width: 272px;
+   height: 54px;
+   margin-bottom: 20px;
+}
+.pcard-text p {
+    font-size: 18px;
+    color: #161616;
+    
+}
+.icons {
+    display: flex;
+    justify-content: flex-start;
+}
+.message-icon {
+    margin-left: 30px;
+}
+.right-side {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 24px;
+    margin-left: 24px;
+    column-gap: 24px;
+}
+.second-section {
+    display: flex;
+    justify-content: center;
 }
