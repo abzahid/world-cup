@@ -1,0 +1,66 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* Header Banner CSS Style  */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ist-section {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1321px;
+    height: 646px;
+    background: #161616;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.banner-text {
+    color: #FFFFFF;
+    width: 531px;
+    height: 424px;
+}
+
+.banner-text h1 {
+    font-size: 70px;
+     margin-top: 80px;
+     margin-bottom: 0px;
+     font-weight: 700;
+
+}
+
+.banner-text a {
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #DD0000;
+    padding: 16px 25px;
+
+}
+
+.banner-text p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 35px;
+
+}
+
+.banner-text i {
+    margin-left: 10px;
+}
+
+.banner-image img {
+    width: 581px;
+    height: 644px;
+}
