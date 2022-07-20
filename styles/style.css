@@ -151,4 +151,120 @@ body {
 .second-section {
     display: flex;
     justify-content: center;
+    margin-bottom: 130px;
+}
+
+/* footer section  */
+.footer {
+    width: 100%;
+    height: 444px;
+    background: #161616;
+    color: white;
+   
+    
+   
+}
+.footer-elements {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.footer h1 {
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+hr {
+    margin-bottom: 50px;
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+    padding-right: 28px;
+    font-size: 16px;
+    
+
+}
+.footer-link {
+    margin-bottom: 50px;
+}
+/* media queries */
+/* Mobile Device Responsive */
+@media only screen and (max-width:688px) {
+    .ist-section,.second-section,.footer {
+     
+     width: 100%;
+     
+    }
+  
+    .container,.second-section {
+        flex-direction: column; 
+    }
+    .container {
+        margin-top: 0;
+        width: 80%;
+        
+    }
+   
+    .banner-text {
+        width: 258px;
+        height: 178px;
+        margin-left: 10%;
+        
+      
+    }
+    .banner-text h1 {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    .banner-text p {
+        font-size: 14px;
+    }
+    .banner-text a {
+        font-size: 20px;
+        width: 161px;
+        height: 40px;
+        padding: 8px 12px;
+    }
+    .banner-image {
+        margin-left: 10%;
+    }
+    .banner-image img {
+        width: 233px;
+        height: 320px;
+        margin-top: 135px;
+      
+    }
+    .second-section,.left-side {
+        margin-bottom: 20px;
+        background-color: white;
+        justify-content: center;
+    }
+    .left-side a {
+        border: 1px solid black;
+    }
+    .second-section,.right-side {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-link a {
+        display: block;
+    }
+}
+    /* Tablet Device Responsive */
+  @media only screen  and (min-width:688px) and (max-width:992px){
+    .ist-section,.second-section,.footer {
+     
+        width: 100%;
+  }
+  .second-section {
+    flex-direction: column;
+  }
+  .second-section .left-side {
+    display: inline;
+  }
+  .second-section .right-side {
+    grid-template-columns: repeat(2,1fr);
+  }
 }
