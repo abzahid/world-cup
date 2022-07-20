@@ -1,0 +1,173 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* Header Banner CSS Style  */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ist-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+.container {
+    width: 1321px;
+    height: 646px;
+    background: #161616;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.banner-text {
+    color: #FFFFFF;
+    width: 531px;
+    height: 424px;
+}
+
+.banner-text h1 {
+    font-size: 70px;
+     margin-top: 80px;
+     margin-bottom: 0px;
+     font-weight: 700;
+
+}
+
+.banner-text a {
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #DD0000;
+    padding: 16px 25px;
+
+}
+
+.banner-text p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 35px;
+
+}
+
+.banner-text i {
+    margin-left: 10px;
+}
+
+.banner-image img {
+    width: 581px;
+    height: 644px;
+}
+/* 2nd section  */
+/* left side css */
+.left-side {
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+}
+.all-button {
+    width: 252px;
+    height: 252px;
+    padding: 30px;
+   
+}
+.all-button a {
+    display: block;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 17px 40px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #161616;
+    text-align: center;
+}
+#red-button {
+   background-color: #DD0000;
+   color: #FFFFFF;
+  
+}
+
+/* right side  */
+.second-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+   
+    
+}
+.match-shcedule {
+    width: 312px;
+    height: 200px;
+    border-radius: 5px;
+    border: 2px solid beige;
+    
+    
+    
+    
+}
+.match-shcedule {
+    padding: 53px 30px;
+}
+.right-side {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 24px;
+    row-gap: 24px;
+    column-gap: 24px;
+   
+}
+.team {
+ display: flex;
+ justify-content: space-evenly;
+}
+.both-team {
+    text-align: center;
+}
+.text {
+    text-align: center;
+}
+
+/* footer section  */
+.footer {
+    width: 100%;
+    height: 444px;
+    background: #161616;
+    color: white;
+   
+    
+   
+}
+.footer-elements {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.footer h1 {
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+hr {
+    margin-bottom: 50px;
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+    padding-right: 28px;
+    font-size: 16px;
+    
+
+}
+.footer-link {
+    margin-bottom: 50px;
+}
