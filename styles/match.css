@@ -239,3 +239,40 @@ hr {
     
 }
 }
+
+/* Tablet Device Responsive */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .banner-text {
+        width: 316px;
+        height: 276px;
+        margin-top: 70px;
+    }
+    .banner-text h1 {
+        font-size: 40px;
+    }
+    .banner-text p {
+        font-size: 14px;
+    }
+    .banner-text a {
+        width: 161px;
+        height: 48px;
+        font-size: 20px;
+    }
+    .banner-image img {
+        width: 323px;
+        height: 400px;
+        margin-top: 243px;
+        margin-left: 20px;
+    }
+    .second-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-side {
+        margin-bottom: 50px;
+    }
+    .second-section,.right-side {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
