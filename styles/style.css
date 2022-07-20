@@ -283,19 +283,19 @@ hr {
   }
   .second-section {
     flex-direction: column;
+   justify-content: center;
+   align-items: center;
   }
   .left-side {
-    width: 690px;
-    height: 64px; 
-    border: 1px black solid;
+     
+    
     background-color: white;
      
   }
-  .all-button a {
-    display: inline;
-    
- 
+  .left-side a {
+    border: 1px solid black;
   }
+ 
   .right-side {
     margin-top: 100px;
   }
