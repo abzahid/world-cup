@@ -101,6 +101,7 @@ body {
     width: 312px;
      height: 362px;
      border-radius: 5px;
+     border: 2px solid beige;
      
 }
 .player-card img {
