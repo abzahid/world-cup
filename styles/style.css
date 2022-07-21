@@ -243,6 +243,11 @@ hr {
         margin-top: 135px;
       
     }
+    .banner-image img:hover {
+        width: 300px;
+        
+    }
+    
     .second-section,.left-side {
         margin-bottom: 20px;
         background-color: white;
